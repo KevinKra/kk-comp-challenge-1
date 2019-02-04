@@ -14,12 +14,15 @@ header {
 
 }
 
-main {
+.main-content {
+	background-color: #eee;
 	margin: 0;
+	padding: 0;
 }
 
 main > .main-title {
-	padding-left: 1.5%;
+	padding: 30px 0 30px 1.5%;
+	margin: 0;
 }
 
 section.cards-section {
@@ -29,11 +32,12 @@ section.cards-section {
 }
 
 article.card {
-	border: 1px solid blue;
+/*	border: 1px solid blue;*/
 	margin: 4px .3%;
 	width: 24%;
 	max-width: 370px;
 	min-width: 250px;
+	box-shadow: 0 0 2px #444;
 }
 
 /* ==^^^^^^== HEADER CONTENT ==^^^^^^== */
@@ -88,13 +92,17 @@ section.card-img-icons {
 }
 
 .card-image {
-	background-color: #eee;
+	background-color: #ccc;
 	height: 150px;
 }
 
 .card-img-icons > div {
 	height: 65px;
 	border: 1px solid red;
+}
+
+i {
+	color: #fff;
 }
 
 /* ==== CARD INTERIOR BODY ==== */
@@ -115,22 +123,46 @@ section.card-body {
 	padding: 10px 5%;
 }
 
-section.card-body > header, main, footer {
+/*section.card-body + header, main, footer {
 	margin: 5px 0;
 	padding: 5px 0;
+	border: 1px solid green;
+}*/
+
+.card-body {
+	background-color: #fff;
 }
 
-.card-body > header > * {
+.card-body > header {
+	margin: 5px 0;
+	padding: 5px 0;
+/*	color: green;*/
+}
+
+.card-body > main {
+	margin: 5px 0;
+	padding: 5px 0;
+/*	color: green;*/
+}
+
+.sub-header, .sub-title {
 	margin: 0;
 /*	color: green;*/
 }
 
-.card-body > main > * {
+.card-body > footer {
+	margin: 5px 0;
+	padding: 5px 0;
+/*	color: green;*/
+}
+
+.sub-footer, .card-number {
 	margin: 0;
 /*	color: green;*/
 }
 
-.card-body > footer > * {
-	margin: 0;
-/*	color: green;*/
+.card-number {
+	font-size: 32px;
 }
+
+
