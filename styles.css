@@ -1,0 +1,136 @@
+*:before, *:after, * {
+	box-sizing: border-box;
+}
+
+* {
+	/*border: 1px solid red;*/
+}
+
+html {
+	margin: 0;
+}
+
+header {
+
+}
+
+main {
+	margin: 0;
+}
+
+main > .main-title {
+	padding-left: 1.5%;
+}
+
+section.cards-section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+article.card {
+	border: 1px solid blue;
+	margin: 4px .3%;
+	width: 24%;
+	max-width: 370px;
+	min-width: 250px;
+}
+
+/* ==^^^^^^== HEADER CONTENT ==^^^^^^== */
+header.top-header {
+	background-color: #aaa;
+	height: 150px;
+	padding: 15px 1.5%;
+	display: flex;
+	border: 1px solid red;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+header.top-header > form {
+	align-self: flex-end;
+}
+
+nav.top-nav {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav.top-nav > ol {
+	list-style-type: none;
+	width: 50vw;
+	padding: 0;
+	/*margin-top: 14vh;*/
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-between;
+}
+
+.top-nav > ol li {
+ 	
+}
+
+
+
+
+
+/* ==^^^^^^== CARD INTERIOR ==^^^^^^== */
+
+
+/* ==== CARD INTERIOR IMAGE ==== */
+section.card-img-icons {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 8%;
+}
+
+.card-image {
+	background-color: #eee;
+	height: 150px;
+}
+
+.card-img-icons > div {
+	height: 65px;
+	border: 1px solid red;
+}
+
+/* ==== CARD INTERIOR BODY ==== */
+.body-title {
+
+}
+
+h3.card-title {
+	margin: 0;
+}
+
+p.card-date {
+	margin: 0;
+	color: blue;
+}
+
+section.card-body {
+	padding: 10px 5%;
+}
+
+section.card-body > header, main, footer {
+	margin: 5px 0;
+	padding: 5px 0;
+}
+
+.card-body > header > * {
+	margin: 0;
+/*	color: green;*/
+}
+
+.card-body > main > * {
+	margin: 0;
+/*	color: green;*/
+}
+
+.card-body > footer > * {
+	margin: 0;
+/*	color: green;*/
+}
