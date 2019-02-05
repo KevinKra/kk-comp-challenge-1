@@ -95,6 +95,16 @@ html {
 	width: 50vw;
 }
 
+.top-header .user-login {
+	color: #fff;
+ 	transition: .3s ease-in-out;
+ 	list-style-type: none;
+}
+
+.top-header .user-login:hover {
+	color: #5BC0BE;
+}
+
 .top-header  ol li {
  	color: #5BC0BE;
  	transition: .3s ease-in-out;
@@ -102,7 +112,7 @@ html {
 }
 
 .top-header li:hover {
-	color: white;
+	color: #fff;
 	cursor: pointer;
 }
 
