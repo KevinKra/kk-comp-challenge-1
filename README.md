@@ -3,12 +3,12 @@ A Static Comp project for class limited to Flexbox.
 
 ## Template Design
 
-[Template](https://i.imgur.com/ePMkNz1.jpg)
+![Template](https://i.imgur.com/ePMkNz1.jpg)
 
 ## Personal Design
 
-[Large-Screen](https://i.imgur.com/JojWeBG.png)
-[Mobile](https://i.imgur.com/4GBc95a.png)
+![Large-Screen](https://i.imgur.com/JojWeBG.png)
+![Mobile](https://i.imgur.com/4GBc95a.png)
 
 ## Built With
 
